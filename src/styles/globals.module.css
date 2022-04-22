@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+.body{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+}
+
+
+.main{
+    flex-grow: 1;
+    margin: 3.9em 2.8em;
+    padding: 2em;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type:none;
+}

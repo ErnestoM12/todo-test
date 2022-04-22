@@ -1,0 +1,97 @@
+
+  
+  .cards {
+    position: relative;
+    margin: 1em 1em;
+    width: 10em;
+    height: 10em;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid  #b8b81c;
+    border-radius: 8px;
+  }
+  
+
+  .cards:hover {
+    cursor: pointer;
+    border: 2px solid #4c97ff;
+    border-radius: 8px;
+  }
+  
+  .text {
+    height: 7em;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100px;
+    word-wrap: break-word;
+    overflow-y: auto;
+  }
+  
+  
+  .option {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 20px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+
+  .divContainer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input{
+    height: 9.3em;
+    border-radius: 8px;
+    margin: 0.4em 0em;
+    width: 11em;
+    resize: none;
+
+  }
+ 
+  .cardsform {
+    position: relative;
+    margin: 1em 1em;
+    width: 10em;
+    height: 10em;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid  #b8b81c;
+    border-radius: 8px;
+  }
+
+
+
+  .btnAdd {
+    width: 85%;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+
+  .btnAdd:hover{
+    color: black;
+    background: white;
+
+  }
+
+  
+
+  
+
+  

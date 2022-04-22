@@ -1,0 +1,36 @@
+
+.border{
+    border: 2px solid #b8b81c;
+    border-radius: 0.6em;
+    overflow-y: auto;
+    max-height: 700px;
+}
+
+
+.active{
+    color: rgb(231, 7, 7);
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 19px;  
+    margin-right: 1em;
+
+}
+
+.done{
+
+    color: rgb(27, 155, 27);
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 19px; 
+}
+
+.counts {
+    margin-top: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+} 
+
+
+
