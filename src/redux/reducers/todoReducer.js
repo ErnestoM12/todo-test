@@ -50,7 +50,6 @@ function todo(state = initialState, action) {
     case DELETE_TODO:
       return {
         ...state,
-        active: state.active - 1,
         todos: state.todos.filter((todo) => {
           return todo.id !== action.payload.id
         })
